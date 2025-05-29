@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    h2 {
+      color: #007bff;
+    }
+    img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+      display: block;
+    }
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    button {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Webpage</h1>
+  </header>
+  <main>
+    <h2>About Me</h2>
+    <p>Hello! I am learning web development through an internship program. This is my first task using HTML, CSS, and JavaScript.</p>
+
+    <a href="https://github.com/saikumar1007" target="_blank">Visit My GitHub</a> 
+    <img src="git.jpeg" alt="GitHub Logo" style="width: 24px; height: 24px; margin-left: 8px; vertical-align: middle;">
+    
+    <a href="https://apexplanet.in/" target="_blank">Visit ApexPlanet</a>
+    <img src="apexlogo.png"alt="ApexPlanet Logo">
+
+    <button onclick="showMessage()">Click Me</button>
+  </main>
+  
+  <script>
+    function showMessage() {
+      alert("Hello! You clicked the button.");
+    }
+  </script>
+</body>
+</html>
